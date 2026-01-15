@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 708.7 127.6">
+  <!-- Generator: Adobe Illustrator 29.8.3, SVG Export Plug-In . SVG Version: 2.1.1 Build 3)  -->
+  <defs>
+    <style>
+      .st0 {
+        font-family: Bauhaus93, 'Bauhaus 93';
+      }
+
+      .st0, .st1, .st2 {
+        font-size: 75.5px;
+      }
+
+      .st0, .st1, .st2, .st3 {
+        fill: #f1ed73;
+      }
+
+      .st1 {
+        font-family: GillSans-UltraBold, 'Gill Sans Ultra Bold';
+        font-weight: 700;
+      }
+
+      .st4 {
+        fill: #8878b7;
+      }
+
+      .st2 {
+        font-family: BernardMT-Condensed, 'Bernard MT Condensed';
+      }
+
+      .st5 {
+        fill: #aed57f;
+      }
+
+      .st6 {
+        fill: #e27f7e;
+      }
+
+      .st7 {
+        fill: #d37ab2;
+      }
+
+      .st8 {
+        fill: #f69892;
+      }
+    </style>
+  </defs>
+  <rect class="st7" x="5.9" y="6.4" width="117.3" height="115.1" rx="7.7" ry="7.7"/>
+  <path class="st3" d="M50,39.9c2.9-.6,7.4-1.1,12-1.1,6.6,0,10.8,1.1,14,3.7,2.6,2,4.3,5,4.3,9s-3.3,9.2-8.6,11.1v.2c4.8,1.2,10.5,5.2,10.5,12.8s-1.7,7.7-4.4,10.1c-3.5,3.3-9.2,4.8-17.6,4.8s-8-.3-10.2-.6v-50.1ZM56.6,60.8h6c6.9,0,10.9-3.7,10.9-8.6s-4.5-8.3-11.1-8.3-4.8.2-5.9.5v16.4ZM56.6,85.1c1.3.3,3.2.3,5.5.3,6.8,0,13.1-2.5,13.1-9.9s-6-9.8-13.2-9.8h-5.5v19.4Z"/>
+  <rect class="st5" x="130" y="6.2" width="117.3" height="115.1" rx="7.7" ry="7.7"/>
+  <text class="st0" transform="translate(160.4 90)"><tspan x="0" y="0">O</tspan></text>
+  <rect class="st6" x="253.7" y="6.2" width="117.3" height="115.1" rx="7.7" ry="7.7"/>
+  <text class="st1" transform="translate(281 90.1)"><tspan x="0" y="0">N</tspan></text>
+  <rect class="st4" x="377.4" y="6.4" width="117.3" height="115.1" rx="7.7" ry="7.7"/>
+  <text class="st2" transform="translate(420.7 93.1)"><tspan x="0" y="0">U</tspan></text>
+  <rect class="st8" x="500.4" y="7.2" width="117.3" height="115.1" rx="7.7" ry="7.7"/>
+  <path class="st3" d="M543.1,74.7c.6,7.1,5,10.7,12.4,10.7s11.5-3.2,11.5-9.6-2.3-7.7-10.8-11c-9.7-3.7-13.2-7.4-13.2-13.5s5.4-14.6,17.2-14.6,16.7,6.7,16.7,14.6h-6.6c-.6-5.4-3.2-9.2-10.7-9.2s-10,3.9-10,8.4,1.7,5.9,9.5,8.9c10.8,4.1,14.6,8.6,14.6,15.5s-5.2,15.8-19.2,15.8-18.1-6.7-18.3-16h6.7Z"/>
+</svg>

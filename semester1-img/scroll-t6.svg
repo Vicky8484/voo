@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 198.4 127.6">
+  <!-- Generator: Adobe Illustrator 29.8.3, SVG Export Plug-In . SVG Version: 2.1.1 Build 3)  -->
+  <defs>
+    <style>
+      .st0 {
+        stroke-dasharray: 11.5 11.5;
+      }
+
+      .st0, .st1 {
+        fill: none;
+        stroke: #a968ab;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .st2, .st3 {
+        fill: #a968ab;
+      }
+
+      .st3 {
+        font-family: Broadway, Broadway;
+        font-size: 33px;
+      }
+    </style>
+  </defs>
+  <g>
+    <line class="st2" x1="17.8" y1="76.4" x2="180" y2="78.4"/>
+    <g>
+      <line class="st1" x1="17.8" y1="76.4" x2="23.8" y2="76.5"/>
+      <line class="st0" x1="35.3" y1="76.6" x2="144.4" y2="77.9"/>
+      <line class="st1" x1="150.1" y1="78" x2="156.1" y2="78.1"/>
+      <polygon class="st2" points="144.7 92.8 151.2 78 145.1 63.1 180 78.4 144.7 92.8"/>
+    </g>
+  </g>
+  <text class="st3" transform="translate(37.4 65.9)"><tspan x="0" y="0">scroll</tspan></text>
+</svg>
