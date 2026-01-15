@@ -1,0 +1,1018 @@
+/*HEADER FOOTER MAIN*/
+
+header {
+  background-color: #e5c6de;
+}
+
+footer {
+  color: #3c8d56;
+  background-color: #e2e8bd;
+}
+
+main {
+  font-family: "Gudea", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img {
+  border-radius: 15px;
+  opacity: 95%;
+}
+
+/*tilbage til top knap*/
+.button-flex {
+  display: flex;
+}
+/*desktop menu for projekter*/
+.menu a {
+  color: #975989;
+}
+
+.menu-ommig {
+  font-family: "Luckiest Guy";
+  font-weight: 400;
+  font-style: normal;
+  color: #894762;
+}
+
+.menu a:hover {
+  color: rgb(115, 57, 81);
+  font-family: "Luckiest Guy";
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*mobil menu for projekter*/
+@media screen and (max-width: 800px) {
+  nav.active .menu {
+    background-color: #c9fbe6;
+  }
+
+  .menu a {
+    color: #89bca7;
+  }
+
+  .menu a:hover {
+    color: #649682;
+    text-decoration: none;
+    font-family: "Luckiest Guy";
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .burger .line {
+    background-color: #975989;
+  }
+}
+
+/*****************************************INDHOLD PÅ SIDE************************************************/
+
+body {
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(63, 107, 136);
+    border-radius: 10px;
+  }
+}
+
+/*vis/gem mobil og desktop sliders*/
+.slide-hide {
+  display: block;
+}
+
+.desk-hide {
+  display: none;
+}
+
+/*gem tilbage til top knapper*/
+
+.button-flex {
+  display: none;
+}
+/********************OM MIG DIV*********************/
+
+#ommig {
+  background-color: #daf5ff;
+  color: #75afbc;
+  display: flex;
+  height: 450px;
+  padding: 0 1rem;
+}
+
+.text-go {
+  display: none;
+}
+
+.text-show {
+  display: block;
+}
+
+.hej {
+  width: 150px;
+}
+
+.tomdiv1 {
+  display: none;
+}
+
+.tekst-div {
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-top: 2rem;
+  width: 500px;
+}
+
+.tomdiv2 {
+  display: none;
+}
+
+.slideshow-ommig {
+  padding: 0.5rem;
+  padding-top: 5rem;
+  border-radius: 15px;
+  max-width: 15rem;
+}
+
+.tomdiv3 {
+  display: none;
+}
+
+/********************MODELLER*********************/
+
+/*hele diven*/
+#modeller {
+  background-color: #d0effb;
+  color: #75afbc;
+  height: 550px;
+  justify-items: center;
+  padding: 1rem;
+}
+
+/*modeller titel svg*/
+.modeller {
+  padding-top: 2rem;
+  width: 300px;
+  margin: 0 auto;
+}
+
+/*billederne*/
+.model {
+  padding: 0.5rem;
+  padding-block: 0;
+}
+
+/*****slider*****/
+.slideshow-modeller-box {
+  margin-top: 3rem;
+}
+
+.slideshow-modeller {
+  max-width: 60rem;
+}
+
+.model-slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.model-slider .model-flex {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  display: flex;
+  height: 300px;
+  max-width: 450px;
+}
+
+/**********************DIGITAL***************************/
+/*rullediver i mobil*/
+#digital-mobil {
+  background-color: #bfeafa;
+  padding-bottom: 2rem;
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+#digital-rul {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.digi-rul {
+  height: 200px;
+  width: 200px;
+  padding: 0 0.2rem;
+}
+
+#digital-rul2 {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.digi-rul2 {
+  height: 200px;
+  width: 200px;
+  padding: 0 0.2rem;
+}
+
+#digital-rul3 {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.digi-rul3 {
+  height: 200px;
+  width: 200px;
+  padding: 0 0.2rem;
+}
+
+#digital-rul4 {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.digi-rul4 {
+  height: 400px;
+  width: 200px;
+  padding: 0 0.2rem;
+}
+
+/*hele diven*/
+#digital {
+  display: none;
+}
+
+/*titlen*/
+.digitalart {
+  width: 350px;
+  padding-top: 3rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  margin: 0 auto;
+}
+/*************************MALERIER***********************/
+/*hele diven*/
+#malerier {
+  background-color: #abe1f5;
+  max-height: 700px;
+  justify-items: center;
+  padding: 1rem;
+}
+
+/*modeller titel svg*/
+.malerier {
+  padding-top: 2rem;
+  width: 300px;
+  margin: 0 auto;
+  padding-left: 2rem;
+}
+
+/*****slider*****/
+.slideshow-malerier-box {
+  margin-top: 3rem;
+}
+
+.slideshow-malerier {
+  max-width: 60rem;
+}
+
+.maleri-slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.maleri-slider .maleri-flex {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  display: flex;
+  height: 520px;
+  max-width: 400px;
+}
+
+/*************************TEGNINGER***********************/
+/*hele desktop diven*/
+#tegninger {
+  display: none;
+}
+
+/*rullediver i mobil*/
+#tegninger-mobil {
+  background-color: #bfeafa;
+  padding-bottom: 2rem;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+#tegninger-rul {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tegn-rul {
+  height: 270px;
+  width: 200px;
+  padding: 0 0.2rem;
+}
+
+#tegninger-rul2 {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tegn-rul2 {
+  height: 280px;
+  width: 200px;
+  padding: 0 0.2rem;
+}
+
+#tegninger-rul3 {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tegn-rul3 {
+  height: 300px;
+  width: 200px;
+  padding: 0 0.2rem;
+  filter: brightness(80%);
+  filter: contrast(120%);
+}
+
+/*tegninger titel svg*/
+.tegninger {
+  padding-top: 3rem;
+  width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+/*************************POSTERS***********************/
+/*hele diven*/
+#posters {
+  background-color: #7ec7e2;
+  height: 750px;
+  justify-items: center;
+  padding: 1rem;
+}
+
+/*modeller titel svg*/
+.posters {
+  padding-top: 2rem;
+  width: 300px;
+  margin: 0 auto;
+}
+
+/*****slider*****/
+.slideshow-posters-box {
+  margin-top: 3rem;
+}
+
+.slideshow-posters {
+  max-width: 60rem;
+}
+
+.posters-slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.posters-slider .poster-flex {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  display: flex;
+  max-height: 540px;
+  max-width: 500px;
+}
+
+/*******************************FOTOS********************************/
+/*hele diven*/
+#fotos {
+  background-color: #62b1cf;
+  justify-items: center;
+  padding-bottom: 2rem;
+}
+
+/*tegninger titel svg*/
+.fotos {
+  padding-top: 1.5rem;
+  width: 240px;
+  margin: 0 auto;
+}
+
+/*fotos slide-animation*/
+.fotos-infibox {
+  margin: 2rem auto;
+  width: 100%;
+  /* border: red 5px solid; */
+  display: flex;
+  overflow-x: auto;
+}
+
+.fotos-infibox::-webkit-scrollbar {
+  display: none;
+}
+
+.fotos-infibox img {
+  border-radius: 0;
+  width: 200px;
+  height: 300px;
+  opacity: 90%;
+}
+
+.fotos-wrapper {
+  display: flex;
+  gap: 5px;
+  animation: spin 25s infinite linear;
+  padding-right: 5px;
+}
+
+.fotos-img {
+  flex: 0 0 5em;
+}
+
+/*fotos slide-animation 2*/
+.fotos-infibox2 {
+  margin: 2rem auto;
+  width: 100%;
+  display: flex;
+  overflow-x: auto;
+}
+
+.fotos-infibox2::-webkit-scrollbar {
+  display: none;
+}
+
+.fotos-infibox2 img {
+  border-radius: 0;
+  width: 200px;
+  height: 300px;
+  opacity: 90%;
+}
+
+.fotos-wrapper2 {
+  display: flex;
+  gap: 5px;
+  animation: spin 23s infinite linear;
+  padding-right: 5px;
+}
+
+.fotos-img2 {
+  flex: 0 0 5em;
+}
+/***********************************************************************DESKTOP*******************************************************************/
+
+@media screen and (min-width: 800px) {
+  /*desktop og mobil sliders*/
+  .slide-hide {
+    display: none;
+  }
+
+  .desk-hide {
+    display: block;
+  }
+
+  /*billeder*/
+
+  .fotos-img:hover {
+    filter: saturate(150%);
+  }
+
+  .fotos-img2:hover {
+    filter: saturate(150%);
+  }
+
+  /*vis tilbage til top knapper*/
+
+  .button-flex {
+    display: block;
+  }
+
+  .button-flex {
+    display: flex;
+    justify-self: right;
+    padding-right: 1rem;
+    text-align: center;
+  }
+
+  .buttons {
+    padding-top: 2px;
+    font-size: 2.5rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 10px;
+    background-color: #4788ba;
+  }
+
+  .button-flex a {
+    color: #f7fc6c;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .button-flex a:hover {
+    color: #acdbff;
+  }
+
+  .buttons:hover {
+    box-shadow: 2px 4px 6px #53648278;
+    background-color: #4788ba;
+  }
+  /********************OM MIG DIV*********************/
+
+  #ommig {
+    background-color: #daf5ff;
+    color: #75afbc;
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: 450px;
+  }
+
+  .text-go {
+    display: block;
+  }
+
+  .text-show {
+    display: none;
+  }
+
+  .hej {
+    width: 200px;
+  }
+
+  .tomdiv1 {
+    max-width: 200px;
+    display: block;
+  }
+
+  .tekst-div {
+    padding-top: 2rem;
+    max-width: 500px;
+  }
+
+  .tomdiv2 {
+    max-width: 100px;
+    display: block;
+  }
+
+  .slideshow-ommig {
+    padding-top: 2rem;
+    border-radius: 15px;
+    min-width: 12rem;
+  }
+
+  .tomdiv3 {
+    max-width: 200px;
+    display: block;
+  }
+
+  /********************MODELLER*********************/
+
+  /*hele diven*/
+  #modeller {
+    background-color: #d0effb;
+    color: #75afbc;
+    height: 600px;
+    justify-items: center;
+  }
+
+  /*modeller titel svg*/
+  .modeller {
+    padding-top: 2rem;
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  /*****slider*****/
+  .slideshow-modeller-box {
+    margin-top: 3rem;
+  }
+
+  .slideshow-modeller {
+    max-width: 60rem;
+  }
+
+  .model-slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+  }
+
+  .model-slider .model-flex {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    display: flex;
+    height: 350px;
+    max-width: 4000px;
+  }
+  /**********************DIGITAL***************************/
+  /*hele diven*/
+  #digital {
+    background-color: #bfeafa;
+    justify-items: center;
+    padding-bottom: 1rem;
+    overflow-x: hidden;
+    display: block;
+  }
+  /*titlen*/
+  .digitalart {
+    width: 450px;
+    padding-top: 3rem;
+  }
+
+  #digital-mobil {
+    display: none;
+  }
+
+  /*slide-animation*/
+  .digital-infibox {
+    margin: 2rem auto;
+    width: 100%;
+    /* border: red 5px solid; */
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .digital-infibox::-webkit-scrollbar {
+    display: none;
+  }
+
+  .digital-infibox img {
+    border-radius: 0;
+    width: 200px;
+    height: 200px;
+    opacity: 90%;
+  }
+
+  .digital-wrapper {
+    display: flex;
+    gap: 5px;
+    animation: spin 10s infinite linear;
+    padding-right: 5px;
+  }
+
+  .digi-img {
+    flex: 0 0 5em;
+  }
+
+  @keyframes spin {
+    from {
+      translate: 0;
+    }
+    to {
+      translate: -100%;
+    }
+  }
+
+  /*slide-animation 2*/
+  .digital-infibox2 {
+    margin: 2rem auto;
+    width: 100%;
+    /* border: red 5px solid; */
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .digital-infibox2::-webkit-scrollbar {
+    display: none;
+  }
+
+  .digital-infibox2 img {
+    border-radius: 0;
+    width: 200px;
+    height: 200px;
+    opacity: 90%;
+  }
+
+  .digital-wrapper2 {
+    display: flex;
+    gap: 5px;
+    animation: spin 12s infinite linear;
+    padding-right: 5px;
+  }
+
+  .digi-img2 {
+    flex: 0 0 5em;
+  }
+
+  /*slide-animation 3*/
+  .digital-infibox3 {
+    margin: 2rem auto;
+    width: 100%;
+    /* border: red 5px solid; */
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .digital-infibox3::-webkit-scrollbar {
+    display: none;
+  }
+
+  .digital-infibox3 img {
+    border-radius: 0;
+    width: 200px;
+    height: 200px;
+    opacity: 90%;
+  }
+
+  .digital-wrapper3 {
+    display: flex;
+    gap: 5px;
+    animation: spin 16s infinite linear;
+    padding-right: 5px;
+  }
+
+  .digi-img3 {
+    flex: 0 0 5em;
+  }
+
+  /*slide-animation 4*/
+  .digital-infibox4 {
+    margin: 2rem auto;
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .digital-infibox4::-webkit-scrollbar {
+    display: none;
+  }
+
+  .digital-infibox4 img {
+    border-radius: 0;
+    width: 200px;
+    height: 400px;
+    opacity: 90%;
+  }
+
+  .digital-wrapper4 {
+    display: flex;
+    gap: 5px;
+    animation: spin 12s infinite linear;
+    padding-right: 5px;
+  }
+
+  .digi-img4 {
+    flex: 0 0 5em;
+  }
+
+  /*************************MALERIER***********************/
+  /*hele diven*/
+  #malerier {
+    background-color: #abe1f5;
+    height: 900px;
+    justify-items: center;
+    padding: 1rem;
+  }
+
+  /*modeller titel svg*/
+  .malerier {
+    padding-top: 2rem;
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  /*****slider*****/
+  .slideshow-malerier-box {
+    margin-top: 3rem;
+  }
+
+  .slideshow-malerier {
+    max-width: 60rem;
+  }
+
+  .maleri-slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+  }
+
+  .maleri-slider .maleri-flex {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    display: flex;
+    max-height: 400px;
+    max-width: 1800px;
+  }
+
+  /************************TEGNINGER***********************/
+  /*hele mobil diven*/
+  #digital-mobil {
+    display: none;
+  }
+
+  /*rullediver i mobil*/
+  #tegninger-mobil {
+    display: none;
+  }
+
+  /*hele diven*/
+  #tegninger {
+    background-color: #99d9f0;
+    justify-items: center;
+    padding-bottom: 2rem;
+    display: block;
+  }
+
+  /*tegninger titel svg*/
+  .tegninger {
+    padding-top: 2rem;
+    width: 430px;
+    margin: 0 auto;
+  }
+
+  /*tegninger slide-animation*/
+  .tegninger-infibox {
+    margin: 2rem auto;
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .tegninger-infibox::-webkit-scrollbar {
+    display: none;
+  }
+
+  .tegninger-infibox img {
+    border-radius: 0;
+    width: 200px;
+    height: 300px;
+    opacity: 95%;
+  }
+
+  .tegninger-wrapper {
+    display: flex;
+    gap: 5px;
+    animation: spin 12s infinite linear;
+    padding-right: 5px;
+  }
+
+  .tegninger-img {
+    flex: 0 0 5em;
+  }
+
+  /*tegninger slide-animation 2*/
+  .tegninger-infibox2 {
+    margin: 2rem auto;
+    width: 100%;
+    /* border: red 5px solid; */
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .tegninger-infibox2::-webkit-scrollbar {
+    display: none;
+  }
+
+  .tegninger-infibox2 img {
+    border-radius: 0;
+    width: 200px;
+    height: 300px;
+    opacity: 90%;
+  }
+
+  .tegninger-wrapper2 {
+    display: flex;
+    gap: 5px;
+    animation: spin 14s infinite linear;
+    padding-right: 5px;
+  }
+
+  .tegninger-img2 {
+    flex: 0 0 5em;
+  }
+
+  /*tegninger slide-animation 3*/
+  .tegninger-infibox3 {
+    margin: 0rem auto;
+    width: 100%;
+    /* border: red 5px solid; */
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .tegninger-infibox3::-webkit-scrollbar {
+    display: none;
+  }
+
+  .tegninger-infibox3 img {
+    border-radius: 0;
+    width: 200px;
+    height: 300px;
+    opacity: 90%;
+  }
+
+  .tegninger-wrapper3 {
+    display: flex;
+    gap: 5px;
+    animation: spin 15s infinite linear;
+    padding-right: 5px;
+  }
+
+  .tegninger-img3 {
+    flex: 0 0 5em;
+  }
+  /*************************POSTERS***********************/
+  /*hele diven*/
+  #posters {
+    background-color: #7ec7e2;
+    height: 600px;
+    justify-items: center;
+    padding: 1rem;
+  }
+
+  /*modeller titel svg*/
+  .posters {
+    padding-top: 2rem;
+    width: 400px;
+  }
+
+  /*****slider*****/
+  .slideshow-posters-box {
+    margin-top: 3rem;
+  }
+
+  .slideshow-posters {
+    max-width: 60rem;
+  }
+
+  .posters-slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+  }
+
+  .posters-slider .poster-flex {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    max-height: 400px;
+    max-width: 900px;
+  }
+}
