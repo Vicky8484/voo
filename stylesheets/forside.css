@@ -1,0 +1,311 @@
+/*hide funktion*/
+
+.hide {
+  display: none;
+}
+
+/*HEADER FOOTER MAIN*/
+
+header {
+  background-color: #edb0bc;
+}
+
+footer {
+  color: #587395;
+  background-color: #b4d8cc;
+  display: flex;
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+}
+
+body {
+  background-color: #b4d8cc;
+}
+
+main {
+  padding-block: 3.5rem;
+  background-color: #e3ffbf;
+}
+
+img {
+  width: 100%;
+  justify-self: center;
+}
+
+/*mobil menu for forside*/
+.menu a {
+  color: #862f41;
+}
+
+.menu a:hover {
+  color: #a85969;
+  font-family: "Luckiest Guy";
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media screen and (max-width: 800px) {
+  nav.active .menu {
+    background-color: #fbfbc9;
+  }
+
+  .menu a {
+    color: #afaf5a;
+  }
+
+  .menu a:hover {
+    color: #afaf7d;
+    text-decoration: none;
+    font-family: "Luckiest Guy";
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+
+/*mobil anagram knapper*/
+
+.anagram {
+  font-family: "Holtwood One SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+}
+
+.anagram:hover {
+  box-shadow: 2px 3px 6px #a3b788a1;
+}
+
+#knap1 {
+  background-color: #d79191;
+  color: #cf6b6b;
+}
+
+#knap2 {
+  background-color: #9cabbe;
+  color: #4c7da7;
+}
+
+#knap3 {
+  background-color: #6fd374;
+  color: #39934f;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+#buttonbox {
+  text-align: center;
+}
+
+/*desktop footer knapper som ikke skal vises i mobil*/
+
+.gemknapper {
+  display: none;
+}
+
+/*projekt/om mig knapper, skal ikke vises i mobil*/
+.buttons {
+  display: none;
+}
+
+.text-hide1 {
+  display: none;
+}
+
+.text-hide2 {
+  display: none;
+}
+
+/*forside media queries*/
+
+@media screen and (min-width: 500px) {
+  img {
+    width: 100%;
+    justify-self: center;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  img {
+    width: 590px;
+    justify-self: center;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  img {
+    width: 590px;
+    justify-self: center;
+  }
+}
+
+@media screen and (min-width: 1230px) {
+  /*generelt*/
+
+  body {
+    overflow-y: hidden;
+  }
+
+  main {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+
+  img {
+    width: 689px;
+    justify-self: center;
+  }
+
+  /*SIDEPANEL*/
+
+  #container {
+    background-color: #e3ffbf;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    display: flex;
+  }
+
+  .panel-div {
+    flex: 1;
+    transition: 0.5s;
+    height: 517px;
+    padding-top: 200px;
+    padding-left: 40px;
+  }
+
+  #tomdiv {
+    background-color: #e3ffbf;
+  }
+
+  #sidepanel {
+    background-color: #e9e4af;
+  }
+
+  #sidepanel:hover {
+    flex: 6;
+    background-color: #efc8eb;
+  }
+
+  .text-hide1 {
+    display: none;
+  }
+
+  .text-hide2 {
+    display: none;
+  }
+
+  .buttons:hover + .text-hide1 {
+    display: block;
+    color: #e27eb5;
+    font-family: "Luckiest Guy";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.7rem;
+    padding-top: 12px;
+    padding-left: 5px;
+  }
+
+  .buttons:hover + .text-hide2 {
+    display: block;
+    color: #5bbe9f;
+    font-family: "Luckiest Guy";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.7rem;
+    padding-top: 12px;
+    padding-left: 5px;
+  }
+
+  .button-flex {
+    display: flex;
+  }
+  /*projekt og om mig knapper*/
+
+  .buttons {
+    padding: 0.5rem;
+    font-size: 2.5rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .buttons a {
+    color: #f7fc6c;
+    text-decoration: none;
+  }
+
+  .buttons:hover {
+    box-shadow: 2px 4px 6px #827e5378;
+  }
+  #pbutton {
+    background-color: #d27ee2;
+    color: #f7fc6c;
+  }
+
+  #pbutton:hover {
+    background-color: #e27eb5;
+    color: #f7fc6c;
+  }
+
+  #obutton {
+    background-color: #b7e27e;
+    color: #f7fc6c;
+  }
+
+  #obutton:hover {
+    background-color: #5bbe9f;
+  }
+  /*mobil anagram knapper, skal ikke vises*/
+  #knap1 {
+    display: none;
+  }
+
+  #knap2 {
+    display: none;
+  }
+
+  #knap3 {
+    display: none;
+  }
+
+  /*desktop anagram knapper*/
+
+  .gemknapper {
+    display: block;
+  }
+
+  .anagram:hover {
+    box-shadow: 2px 3px 10px #65897dbd;
+  }
+
+  #desk-knap1 {
+    background-color: #d79191;
+    color: #cf6b6b;
+  }
+
+  /*til at vise desktop 1. anagram knap*/
+  .show {
+    display: block;
+  }
+
+  #desk-knap2 {
+    background-color: #ab8daf;
+    color: #994ca7;
+  }
+
+  #desk-knap3 {
+    padding-block: 0.1rem;
+    background-color: #6fd374;
+    color: #39934f;
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+}

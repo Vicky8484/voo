@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOO</title>
+
+    <link rel="stylesheet" href="stylesheets/general.css">
+    <link rel="stylesheet" href="stylesheets/forside.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gudea:ital,wght@0,400;0,700;1,400&family=Happy+Monkey&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Luckiest+Guy&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="forside-img/favicon.svg">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="forside-img/tema6-logo.svg" alt="logo"></a>
+        <nav>
+            <ul class="menu">
+                <li><a href="projekter.html">Projekter</a></li>
+                <li><a href="ommig.html">Om Victory</a></li>
+            </ul>
+            <button class="burger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </button>
+        </nav>
+    </header>
+    <main>
+        <div id="buttonbox">
+            <img id="forside1" src="forside-img/forside1.svg" alt="Victory Omoniyoyah Okosun">
+            <img id="forside2" class="hide" src="forside-img/forside2.svg" alt="Victory Omoniyoyah Okosun">
+            <img id="forside3" class="hide" src="forside-img/forside3mobil.svg" alt="Victory Omoniyoyah Okosun">
+            <button id="knap1" class="anagram">Anagram</button>
+            <button id="knap2" class="anagram hide">Reshuffle</button>
+            <button id="knap3" class="anagram hide">🗘</button>
+        </div>
+        <div id="container">
+            <div id="tomdiv" class="panel-div"></div>
+            <div id="sidepanel" class="panel-div">
+                <div class="button-flex">
+                    <button id="pbutton" class="buttons"><a href="projekter.html">P</a></button>
+                    <div class="text-hide1">rojekter</div>
+                </div>
+                <div class="button-flex">
+                    <button id="obutton" class="buttons"><a href="projekter.html">O</a></button>
+                    <div class="text-hide2">m Victory</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p>Victory Omoniyoyah Okosun</p>
+            <p>MMD studerende, EK</p>
+        </div>
+        <div class="gemknapper">
+            <button id="desk-knap1" class="anagram hide show">Anagram</button>
+            <button id="desk-knap2" class="anagram hide">Reshuffle</button>
+            <button id="desk-knap3" class="anagram hide">🗘</button>
+        </div>
+    </footer>
+    <script src="javascript/menu.js"></script>
+    <script src="javascript/forside.js"></script>
+</body>
+
+</html>
