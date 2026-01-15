@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 708.7 127.6">
+  <!-- Generator: Adobe Illustrator 29.8.3, SVG Export Plug-In . SVG Version: 2.1.1 Build 3)  -->
+  <defs>
+    <style>
+      .st0 {
+        font-family: Magneto-Bold, Magneto;
+      }
+
+      .st0, .st1, .st2, .st3, .st4 {
+        fill: #f1ed73;
+      }
+
+      .st0, .st1, .st2, .st4 {
+        font-size: 75.5px;
+      }
+
+      .st0, .st4 {
+        font-weight: 700;
+      }
+
+      .st5 {
+        fill: #7faada;
+      }
+
+      .st6 {
+        fill: #a0d07d;
+      }
+
+      .st1 {
+        font-family: ShowcardGothic-Reg, 'Showcard Gothic';
+      }
+
+      .st7 {
+        fill: #e2a47e;
+      }
+
+      .st2 {
+        font-family: MicrosoftYaHei, 'Microsoft YaHei';
+      }
+
+      .st8 {
+        fill: #a980b9;
+      }
+
+      .st9 {
+        fill: #e2867e;
+      }
+
+      .st4 {
+        font-family: BerlinSansFBDemi-Bold, 'Berlin Sans FB Demi';
+      }
+    </style>
+  </defs>
+  <rect class="st5" x="5.9" y="6.5" width="117.3" height="115.1" rx="7.7" ry="7.7"/>
+  <text class="st1" transform="translate(43.3 91.2)"><tspan x="0" y="0">T</tspan></text>
+  <rect class="st9" x="130" y="6.4" width="117.3" height="115.1" rx="7.7" ry="7.7"/>
+  <text class="st4" transform="translate(167.4 86.1)"><tspan x="0" y="0">e</tspan></text>
+  <rect class="st6" x="253.7" y="6.4" width="117.3" height="115.1" rx="7.7" ry="7.7"/>
+  <path class="st3" d="M343.9,91.1h-6.2v-35.5c0-2.8.2-6.2.5-10.3h-.1c-.6,2.4-1.1,4.1-1.6,5.1l-18.1,40.6h-3l-18-40.3c-.5-1.2-1-3-1.6-5.4h-.1c.2,2.1.3,5.6.3,10.4v35.4h-6v-52.9h8.2l16.2,36.9c1.3,2.8,2.1,4.9,2.4,6.3h.2c1.1-2.9,1.9-5.1,2.5-6.5l16.5-36.7h7.7v52.9Z"/>
+  <rect class="st7" x="377.4" y="6.5" width="117.3" height="115.1" rx="7.7" ry="7.7"/>
+  <text class="st2" transform="translate(409.7 90.2)"><tspan x="0" y="0">A</tspan></text>
+  <rect class="st8" x="522.4" y="6.4" width="117.3" height="115.1" rx="7.7" ry="7.7"/>
+  <text class="st0" transform="translate(554.8 88.1)"><tspan x="0" y="0">3</tspan></text>
+</svg>

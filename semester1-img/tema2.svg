@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 708.7 127.6">
+  <!-- Generator: Adobe Illustrator 29.8.3, SVG Export Plug-In . SVG Version: 2.1.1 Build 3)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2 {
+        fill: #f1ed73;
+      }
+
+      .st3 {
+        fill: #a480ba;
+      }
+
+      .st4 {
+        fill: #8bceac;
+      }
+
+      .st1 {
+        font-family: BerlinSansFBDemi-Bold, 'Berlin Sans FB Demi';
+        font-weight: 700;
+      }
+
+      .st1, .st2 {
+        font-size: 75.5px;
+      }
+
+      .st2 {
+        font-family: KristenITC-Regular, 'Kristen ITC';
+      }
+
+      .st5 {
+        fill: #b0d57f;
+      }
+
+      .st6 {
+        fill: #d181b6;
+      }
+
+      .st7 {
+        fill: #81a3d5;
+      }
+    </style>
+  </defs>
+  <rect class="st3" x="7.9" y="6.3" width="117.3" height="115.1" rx="7.7" ry="7.7"/>
+  <path class="st0" d="M62.1,47h-16.2v-8.1h42.2v8.1h-16.2v44.1h-9.8v-44.1Z"/>
+  <rect class="st4" x="131.9" y="6.2" width="117.3" height="115.1" rx="7.7" ry="7.7"/>
+  <path class="st0" d="M178.9,68c0,7.8,4,13.3,10.5,13.3s8-3.1,9.2-5.9h6.7c-1.5,4.9-5.6,11.4-16.1,11.4s-16.9-9.8-16.9-19.6,5.7-20.5,17.4-20.5,16.4,9.9,16.4,18.1,0,2.1-.1,3.2h-27ZM199.3,63.4c0-6.3-3.2-11.4-9.8-11.4s-9.7,4.7-10.4,11.4h20.1Z"/>
+  <rect class="st7" x="255.6" y="6.2" width="117.3" height="115.1" rx="7.7" ry="7.7"/>
+  <text class="st1" transform="translate(285 91)"><tspan x="0" y="0">M</tspan></text>
+  <rect class="st5" x="379.3" y="6.3" width="117.3" height="115.1" rx="7.7" ry="7.7"/>
+  <path class="st0" d="M450.8,88.1h-6v-5.9h-.1c-2.6,4.5-6.5,6.8-11.6,6.8s-6.7-1-8.8-3c-2.1-2-3.2-4.6-3.2-7.9,0-7.1,4.2-11.2,12.5-12.3l11.3-1.6c0-6.4-2.6-9.6-7.8-9.6s-8.6,1.5-12.3,4.6v-6.2c3.7-2.4,8-3.5,12.8-3.5,8.9,0,13.3,4.7,13.3,14.1v24.5ZM444.8,69l-9.1,1.3c-2.8.4-4.9,1.1-6.3,2.1s-2.1,2.8-2.1,5.3.7,3.3,2,4.5c1.3,1.2,3.1,1.8,5.3,1.8s5.5-1.1,7.4-3.2c2-2.1,2.9-4.8,2.9-8v-3.8Z"/>
+  <rect class="st6" x="524.3" y="6.2" width="117.3" height="115.1" rx="7.7" ry="7.7"/>
+  <text class="st2" transform="translate(562.7 88)"><tspan x="0" y="0">2</tspan></text>
+</svg>
