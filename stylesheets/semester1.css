@@ -1,0 +1,1565 @@
+/*HEADER FOOTER MAIN*/
+
+header {
+  background-color: #f6a7c8;
+  position: sticky;
+}
+
+footer {
+  color: #587395;
+  background-color: #bdd3e8;
+}
+
+main {
+  font-family: "Gudea", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    /* box-shadow: inset 0 0 5px grey; */
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #c1bfbfb7;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    /* width */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      border-radius: 10px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #ce7b7b00;
+      border-radius: 10px;
+    }
+  }
+}
+
+/*desktop menu for projekter*/
+.menu a {
+  color: #ba698b;
+}
+
+.menu-projekter {
+  font-family: "Luckiest Guy";
+  font-weight: 400;
+  font-style: normal;
+  color: #a35b79;
+}
+
+.menu a:hover {
+  color: #8d4b66;
+  font-family: "Luckiest Guy";
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*mobil menu for projekter*/
+@media screen and (max-width: 800px) {
+  nav.active .menu {
+    background-color: #c9fbe6;
+  }
+
+  .menu a {
+    color: #89bca7;
+  }
+
+  .menu a:hover {
+    color: #649682;
+    text-decoration: none;
+    font-family: "Luckiest Guy";
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /*andre ting*/
+  .tema {
+    width: 400px;
+  }
+
+  .emne {
+    width: 410px;
+  }
+
+  .scroll-arrow {
+    padding-top: 7rem;
+    padding-left: 5rem;
+    width: 300px;
+    display: block;
+  }
+}
+
+/*Alle projekter*/
+.projekt {
+  height: 550px;
+}
+
+/*p'er der skal rykkes ind*/
+.movein {
+  padding-left: 1.3rem;
+}
+
+.ul-movein {
+  padding-left: 2rem;
+}
+.overskrift {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.tema {
+  width: 350px;
+}
+
+.emne {
+  width: 360px;
+}
+
+.webside-img {
+  width: 800px;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+
+.mobilside-img {
+  width: 300px;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+
+.knap {
+  font-family: "Holtwood One SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+.mest-isp-imgbox {
+  display: flex;
+}
+.mest-isp {
+  height: 200px;
+  border-radius: 15px;
+  margin-right: 5px;
+}
+
+/*links*/
+.figma-link1 {
+  color: #b63a5fd5;
+  font-weight: 600;
+}
+
+.figma-link1:hover {
+  color: #c1732e69;
+  text-decoration: none;
+}
+
+.figma-link2 {
+  color: #b67c3ad5;
+  font-weight: 600;
+}
+
+.figma-link2:hover {
+  color: #c1bf2e7d;
+  text-decoration: none;
+}
+
+.figma-link3 {
+  color: #b6b03ad5;
+  font-weight: 600;
+}
+
+.figma-link3:hover {
+  color: #53c12e7d;
+  text-decoration: none;
+}
+
+.bonus-link {
+  color: #59b63ad5;
+  font-weight: 600;
+}
+
+.bonus-link:hover {
+  color: #2e77c19b;
+  text-decoration: none;
+}
+
+.figma-link4 {
+  color: #3a84b6d5;
+  font-weight: 600;
+}
+
+.figma-link4:hover {
+  color: #b02ec17d;
+  text-decoration: none;
+}
+/**************************************************************************************************************/
+/***********************TEMA 2 DIV*****************************/
+.tema2-button {
+  background-color: #dc9595;
+  margin-left: 10px;
+}
+
+.tema2-button a {
+  color: #bd6b6b;
+  text-decoration: none;
+}
+
+.tema2-button:hover {
+  box-shadow: 2px 3px 6px #8c464642;
+}
+
+#tema2 {
+  background-color: #ffcaca;
+  overflow-x: scroll;
+  display: flex;
+  color: #e28282;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+/*tema 2, studiestart*/
+.t2 {
+  padding-top: 3rem;
+  padding-left: 2rem;
+  padding-right: 4rem;
+}
+
+/*om siden titel*/
+.t2-1 {
+  display: none;
+}
+
+.omsiden {
+  display: block;
+  padding-bottom: 2rem;
+}
+
+/*emne, fokus, projektbeskrivelse osv*/
+.t2-2 {
+  width: 500px;
+  padding-top: 3rem;
+  padding-right: 4rem;
+  padding-left: 5rem;
+}
+
+/*billede og knap*/
+.mobil-t2-3 {
+  width: 350px;
+  display: block;
+  padding-top: 1rem;
+}
+
+.t2-3 {
+  display: none;
+}
+
+/*om temaet*/
+.t2-04 {
+  display: none;
+}
+.t2-4 {
+  width: 300px;
+  padding-top: 6rem;
+  padding-left: 2rem;
+}
+
+/*Hjælpemidler*/
+.t2-5 {
+  width: 240px;
+  display: flex;
+  padding-top: 13rem;
+  padding-left: 2rem;
+}
+
+.unlocked-t2 {
+  padding-top: 2.3rem;
+  padding-left: 1rem;
+  width: 30px;
+  height: 190px;
+}
+
+/*færdigheder*/
+.t2-6 {
+  width: 250px;
+  padding-top: 6rem;
+  padding-left: 1rem;
+}
+
+/*harmonika*/
+.t2-7 {
+  display: none;
+}
+
+.mobil-t2-7 {
+  width: 400px;
+  display: block;
+  padding-top: 4rem;
+  margin-right: 2rem;
+}
+
+.summary2 {
+  background-color: #dc9595;
+  color: #ae5d5d;
+  padding: 0.5rem;
+}
+
+.summary2:hover {
+  background-color: #ce7b7b;
+  color: rgb(134, 58, 58);
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.mest-isp-bigbox {
+  background-color: #edb5b5;
+  color: #9a4b4b;
+  padding: 0.5rem;
+}
+
+details p {
+  padding-bottom: 0.5rem;
+}
+
+/************************TEMA 3 DIV*****************************/
+
+.tema3-button {
+  background-color: #e2aa82;
+  margin-left: 10px;
+}
+
+.tema3-button a {
+  color: #a97652;
+  text-decoration: none;
+}
+
+.tema3-button:hover {
+  box-shadow: 2px 3px 6px #8c464642;
+}
+
+#tema3 {
+  background-color: #ffe6ca;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: flex;
+  color: #dea47b;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+/*tema 3, emnesite*/
+.t3 {
+  padding-top: 3rem;
+  padding-left: 2rem;
+  padding-right: 4rem;
+}
+
+/*om siden titel*/
+.t3-1 {
+  display: none;
+}
+
+.omsiden {
+  display: block;
+}
+
+/*emne, fokus, projektbeskrivelse osv*/
+.t3-2 {
+  width: 470px;
+  padding-top: 0.5rem;
+  padding-right: 4rem;
+  padding-left: 3rem;
+}
+
+/*billede og knap*/
+.t3-3 {
+  display: none;
+}
+
+.mobil-t3-3 {
+  display: block;
+  padding-top: 2rem;
+}
+
+/*om temaet*/
+.t3-4 {
+  display: none;
+}
+
+.omsiden {
+  display: block;
+}
+
+/*emne, fokus*/
+.t3-5 {
+  width: 350px;
+  padding-top: 5rem;
+  padding-left: 3rem;
+}
+
+/*research metoder*/
+.t3-6 {
+  display: flex;
+  width: 270px;
+  padding-top: 14rem;
+  padding-left: 1rem;
+}
+
+.unlocked-t3 {
+  padding-top: 1.9rem;
+  padding-left: 1rem;
+  width: 30px;
+  height: 135px;
+}
+
+/*færdigheder, ideudviklingsmetoder*/
+.t3-7 {
+  width: 310px;
+  padding-top: 5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.mini-flex {
+  display: flex;
+  padding-top: 8rem;
+}
+
+/*harmonika*/
+.t3-8 {
+  display: none;
+}
+
+.mobil-t3-8 {
+  display: block;
+  padding-top: 2rem;
+  margin-right: 2rem;
+}
+
+.summary3 {
+  background-color: #dea47b;
+  color: #8e603f;
+  padding: 0.5rem;
+}
+
+#details-t3 {
+  width: 400px;
+}
+
+.summary3:hover {
+  background-color: #ad8768;
+  color: #7d5a3e;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.mest-isp-bigbox-t3 {
+  background-color: hsl(25, 100%, 85%);
+  color: #a6785a;
+  padding: 0.5rem;
+  padding-left: 0.5rem;
+  gap: 20px;
+}
+
+.mest-isp-imgbox-t3 {
+  width: 400px;
+  display: flex;
+}
+
+/********************TEMA 4 DIV***********************/
+.tema4-button {
+  background-color: #d6d69a;
+  margin-left: 10px;
+}
+
+.tema4-button a {
+  color: #a9ad68;
+  text-decoration: none;
+}
+
+.tema4-button:hover {
+  box-shadow: 2px 3px 6px #8c464642;
+}
+
+#tema4 {
+  background-color: #f7ffca;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: flex;
+  color: #a9ad68;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+/*tema 4, emergency*/
+.t4 {
+  padding-top: 3rem;
+  padding-left: 2rem;
+  padding-right: 4rem;
+}
+
+/*om siden titel*/
+.t4-1 {
+  display: none;
+}
+
+.omsiden {
+  display: block;
+}
+
+/*emne, fokus, projektbeskrivelse osv*/
+.t4-2 {
+  width: 500px;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-left: 3rem;
+}
+
+/*billede og knap*/
+.t4-3 {
+  display: none;
+}
+
+.mobil-t4-3 {
+  width: 400px;
+  display: block;
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+
+/*om temaet*/
+.t4-4 {
+  display: none;
+}
+
+/*emne, fokus*/
+.t4-5 {
+  width: 270px;
+  padding-top: 6rem;
+}
+
+/*hjælpemidler*/
+.t4-6 {
+  display: flex;
+  width: 200px;
+  padding-top: 19rem;
+  padding-left: 1rem;
+}
+
+.unlocked-t4 {
+  padding-top: 1.9rem;
+  padding-left: 1rem;
+  width: 30px;
+  height: 98px;
+}
+
+/*færdigheder*/
+.t4-7 {
+  width: 300px;
+  padding-top: 6rem;
+  padding-left: 2rem;
+  padding-right: 3rem;
+}
+
+.mini-flex {
+  display: flex;
+  padding-top: 8rem;
+}
+
+/*harmonika*/
+.t4-8 {
+  display: none;
+}
+
+.mobil-t4-8 {
+  display: block;
+  padding-top: 10rem;
+  margin-right: 2rem;
+}
+
+.summary4 {
+  background-color: #a9ad68;
+  color: #6e7046;
+  padding: 0.5rem;
+}
+
+#details-t4 {
+  width: 400px;
+}
+
+.summary4:hover {
+  background-color: #8e9150;
+  color: #575936;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.mest-isp-bigbox-t4 {
+  background-color: #d6d69a;
+  color: #6e7046;
+  padding: 0.5rem;
+  padding-left: 0.5rem;
+  gap: 20px;
+}
+
+/**********************TEMA 5 DIV MOBIL****************************/
+.tema5-button {
+  background-color: #88c68c;
+  margin-left: 10px;
+  width: 230px;
+}
+
+.tema5-button a {
+  color: #53925c;
+  text-decoration: none;
+}
+
+.tema5-button:hover {
+  box-shadow: 2px 3px 6px #508c4642;
+}
+
+#tema5 {
+  background-color: #d1ffca;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: flex;
+  color: #68ad71;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+/*tema 5, CRUSH*/
+.t5 {
+  padding-top: 3rem;
+  padding-left: 2rem;
+  padding-right: 4rem;
+}
+
+/*om siden titel*/
+.t5-1 {
+  display: none;
+}
+
+.omsiden {
+  display: block;
+}
+
+/*emne, fokus, projektbeskrivelse osv*/
+.t5-2 {
+  width: 600px;
+  padding-top: 0.5rem;
+  padding-right: 1rem;
+  padding-left: 3rem;
+}
+
+/*billede og knap*/
+.t5-3 {
+  display: none;
+}
+
+.mobil-t5-3 {
+  width: 400px;
+  display: block;
+  padding-top: 2rem;
+  padding-left: 3rem;
+}
+
+/*om temaet*/
+.t5-4 {
+  display: none;
+}
+
+/*emne, fokus*/
+.t5-5 {
+  width: 300px;
+  padding-top: 7rem;
+  padding-left: 3rem;
+}
+
+/*hjælpemidler*/
+.t5-6 {
+  display: flex;
+  width: 250px;
+  padding-top: 19rem;
+  padding-left: 3rem;
+}
+
+.unlocked-t5 {
+  padding-top: 2.2rem;
+  padding-left: 1rem;
+  width: 30px;
+  height: 75px;
+}
+
+/*færdigheder*/
+.t5-7 {
+  width: 280px;
+  padding-top: 5rem;
+  padding-left: 2rem;
+  padding-right: 3rem;
+}
+
+/*harmonika*/
+.t5-8 {
+  display: none;
+}
+
+.mobil-t5-8 {
+  display: block;
+  margin-right: 2rem;
+  padding-top: 9rem;
+}
+
+.summary5 {
+  background-color: #88c68c;
+  color: #396b41;
+  padding: 0.5rem;
+}
+
+#details-t5 {
+  width: 400px;
+}
+
+.summary5:hover {
+  background-color: #53925c;
+  color: #2b5030;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.mest-isp-bigbox-t5 {
+  background-color: #a5dfa9;
+  color: #3f8144;
+  padding: 0.5rem;
+  padding-left: 0.5rem;
+  gap: 20px;
+}
+
+.mest-isp-t51 {
+  width: 100px;
+  height: 200px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.mest-isp-t52 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+/***********************BONUS DIV MOBIL***************************/
+#bonus {
+  background-color: #caf9ff;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: flex;
+  color: #6889ad;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+/*bonus, hobby titel*/
+.bonus {
+  padding-top: 3rem;
+  padding-left: 2rem;
+  padding-right: 4rem;
+}
+
+.bonus-button {
+  background-color: #8fb6ce;
+  margin-left: 10px;
+  width: 150px;
+}
+
+.bonus-button a {
+  color: #6889ad;
+  text-decoration: none;
+}
+
+.bonus-button:hover {
+  box-shadow: 2px 3px 6px #8c468a42;
+}
+
+/*babykristen knap*/
+.bonus-button2 {
+  background-color: #8fb6ce;
+  margin-left: 10px;
+  width: 200px;
+}
+
+.bonus-button2 a {
+  color: #6889ad;
+  text-decoration: none;
+}
+
+.bonus-button2:hover {
+  box-shadow: 2px 3px 6px #8c468a42;
+}
+
+/*tema 6, portfolio titel*/
+.bonus {
+  padding-top: 3rem;
+  padding-left: 2rem;
+}
+
+/*om siden titel*/
+.bonus-1 {
+  display: none;
+}
+
+.omsiden {
+  display: block;
+  padding-top: 1rem;
+}
+
+/*emne, fokus, projektbeskrivelse osv*/
+.bonus-2 {
+  width: 450px;
+  padding-top: 3rem;
+  padding-right: 2rem;
+  padding-left: 5rem;
+}
+
+/*billede og knap*/
+.bonus-3 {
+  display: none;
+}
+
+.mobil-bonus-3 {
+  width: 350px;
+  display: block;
+  padding: 2rem;
+}
+
+.omsiden {
+  display: block;
+}
+
+.bonus-1 {
+  display: none;
+}
+/**********************TEMA 6 DIV MOBIL*************************/
+#tema6 {
+  background-color: #fdcaff;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: flex;
+  color: #a968ad;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+/*tema 6, portfolio*/
+.t6 {
+  padding-top: 3rem;
+  padding-left: 2rem;
+  padding-right: 4rem;
+}
+
+/*om siden titel*/
+.t6-1 {
+  display: none;
+}
+
+.omsiden {
+  display: block;
+}
+
+/*emne, fokus, projektbeskrivelse osv*/
+.t6-2 {
+  width: 450px;
+  padding-top: 3rem;
+  padding-right: 2rem;
+  padding-left: 4rem;
+}
+
+/*billede og knap*/
+.t6-3 {
+  display: none;
+}
+
+.mobil-t6-3 {
+  width: 350px;
+  display: block;
+  padding-top: 2rem;
+}
+
+/*om temaet*/
+.t6-4 {
+  display: none;
+}
+
+/*emne, fokus*/
+.t6-5 {
+  width: 300px;
+  padding-top: 7rem;
+  padding-left: 2rem;
+}
+
+/*værktøjer*/
+.t6-6 {
+  width: 170px;
+  padding-top: 19rem;
+  padding-left: 3rem;
+}
+
+/*færdigheder*/
+.t6-7 {
+  width: 300px;
+  padding-top: 7rem;
+  padding-left: 2rem;
+  padding-right: 3rem;
+}
+
+/*harmonika*/
+.t6-8 {
+  display: none;
+}
+
+.mobil-t6-8 {
+  display: block;
+  padding-top: 4rem;
+  margin-right: 2rem;
+}
+
+.summary6 {
+  background-color: #c285c6;
+  color: #723a76;
+  padding: 0.5rem;
+}
+
+.details-t6 {
+  width: 400px;
+}
+
+.summary6:hover {
+  background-color: #9c58a1;
+  color: #66326a;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.mest-isp-bigbox-t6 {
+  background-color: #e5b2e9;
+  color: #8a3a90;
+  padding: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.mest-isp-t61 {
+  height: 250px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.mest-isp-t62 {
+  height: 250px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.mest-isp-t63 {
+  height: 250px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.mest-isp-t64 {
+  height: 250px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+/**************************************************DESKTOP EVERYTHING*****************************************/
+
+@media screen and (min-width: 800px) {
+  .scroll-arrow {
+    display: none;
+  }
+
+  /*************TEMA 2 DIV DESKTOP***************/
+
+  /*om siden titel*/
+  .t2-1 {
+    width: 200px;
+    padding-top: 4rem;
+    padding-left: 4rem;
+    display: block;
+  }
+
+  .omsiden {
+    display: none;
+  }
+
+  /*emne, fokus, projektbeskrivelse osv*/
+  .t2-2 {
+    width: 470px;
+    padding-top: 8rem;
+    padding-right: 4rem;
+  }
+
+  /*billede og knap*/
+  .mobil-t2-3 {
+    display: none;
+  }
+
+  .t2-3 {
+    width: 800px;
+    padding-top: 3rem;
+    display: block;
+  }
+
+  /*om temaet*/
+  .t2-04 {
+    display: block;
+  }
+
+  .t2-4 {
+    width: 300px;
+    padding-top: 6rem;
+    padding-left: 4rem;
+  }
+
+  /*Hjælpemidler*/
+  .t2-5 {
+    width: 240px;
+    display: flex;
+    padding-top: 13rem;
+    padding-left: 3rem;
+  }
+
+  .unlocked-t2 {
+    padding-top: 2.3rem;
+    padding-left: 1rem;
+    width: 30px;
+    height: 190px;
+  }
+
+  /*færdigheder*/
+  .t2-6 {
+    width: 250px;
+    padding-top: 6rem;
+    padding-left: 1rem;
+  }
+
+  /*harmonika*/
+  .t2-7 {
+    width: 900px;
+    padding-top: 4rem;
+    padding-left: 1rem;
+    padding-right: 3rem;
+    display: block;
+  }
+
+  .mobil-t2-7 {
+    display: none;
+  }
+
+  .summary2 {
+    background-color: #dc9595;
+    color: #ae5d5d;
+    padding: 0.5rem;
+  }
+  /*************TEMA 3 DIV DESKTOP***************/
+
+  /*tema 3, emnesite*/
+  .t3 {
+    padding-top: 3rem;
+    padding-left: 2rem;
+  }
+
+  /*om siden titel*/
+  .t3-1 {
+    width: 200px;
+    padding-top: 3rem;
+    padding-left: 4rem;
+    display: block;
+  }
+
+  .omsiden {
+    display: none;
+  }
+
+  /*emne, fokus, projektbeskrivelse osv*/
+  .t3-2 {
+    width: 470px;
+    padding-top: 5rem;
+    padding-right: 4rem;
+  }
+
+  /*billede og knap*/
+  .t3-3 {
+    width: 800px;
+    padding-top: 3rem;
+    display: block;
+  }
+
+  .mobil-t3-3 {
+    display: none;
+  }
+
+  /*om temaet*/
+  .t3-4 {
+    width: 300px;
+    padding-top: 2rem;
+    padding-left: 4rem;
+    display: block;
+  }
+
+  .omsiden {
+    display: none;
+  }
+
+  /*emne, fokus*/
+  .t3-5 {
+    width: 270px;
+    padding-top: 7rem;
+  }
+
+  /*research metoder*/
+  .t3-6 {
+    display: flex;
+    width: 300px;
+    padding-top: 14rem;
+    padding-left: 1rem;
+  }
+
+  .unlocked-t3 {
+    padding-top: 1.9rem;
+    padding-left: 1rem;
+    width: 30px;
+    height: 135px;
+  }
+
+  /*færdigheder, ideudviklingsmetoder*/
+  .t3-7 {
+    width: 350px;
+    padding-top: 5rem;
+    padding-left: 4rem;
+    padding-right: 3rem;
+  }
+
+  .mini-flex {
+    display: flex;
+    padding-top: 8rem;
+  }
+
+  /*harmonika*/
+  .t3-8 {
+    width: 1260px;
+    padding-top: 4rem;
+    padding-left: 1rem;
+    padding-right: 3rem;
+    display: block;
+  }
+
+  .mobil-t3-8 {
+    display: none;
+  }
+
+  #details-t3 {
+    width: 1160px;
+  }
+
+  /*************TEMA 4 DIV DESKTOP***************/
+
+  /*tema 4, emergency*/
+  .t4 {
+    padding-top: 3rem;
+    padding-left: 2rem;
+  }
+
+  /*om siden titel*/
+  .t4-1 {
+    width: 200px;
+    padding-top: 3rem;
+    padding-left: 4rem;
+    display: block;
+  }
+
+  .omsiden {
+    display: none;
+  }
+
+  /*emne, fokus, projektbeskrivelse osv*/
+  .t4-2 {
+    width: 470px;
+    padding-top: 3rem;
+    padding-right: 4rem;
+  }
+
+  /*billede og knap*/
+  .t4-3 {
+    width: 1700px;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    display: block;
+  }
+
+  .mobil-t4-3 {
+    display: none;
+  }
+
+  .ss-flex {
+    display: flex;
+  }
+
+  /*om temaet*/
+  .t4-4 {
+    width: 200px;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    display: block;
+  }
+
+  /*emne, fokus*/
+  .t4-5 {
+    width: 270px;
+    padding-top: 6rem;
+  }
+
+  /*hjælpemidler*/
+  .t4-6 {
+    display: flex;
+    width: 200px;
+    padding-top: 19rem;
+    padding-left: 1rem;
+  }
+
+  .unlocked-t4 {
+    padding-top: 1.9rem;
+    padding-left: 1rem;
+    width: 30px;
+    height: 98px;
+  }
+
+  /*færdigheder*/
+  .t4-7 {
+    width: 300px;
+    padding-top: 6rem;
+    padding-left: 2rem;
+    padding-right: 3rem;
+  }
+
+  .mini-flex {
+    display: flex;
+    padding-top: 8rem;
+  }
+
+  /*harmonika*/
+  .t4-8 {
+    width: 800px;
+    padding-top: 4rem;
+    padding-left: 1rem;
+    padding-right: 3rem;
+    display: block;
+  }
+
+  .mobil-t4-8 {
+    display: none;
+  }
+
+  #details-t4 {
+    width: 700px;
+  }
+
+  /*************TEMA 5 DIV DESKTOP***************/
+  #tema5-button {
+    margin-left: 10px;
+    width: 230px;
+  }
+
+  /*tema 5, CRUSH*/
+  .t5 {
+    padding-top: 3rem;
+    padding-left: 2rem;
+  }
+
+  /*om siden titel*/
+  .t5-1 {
+    width: 240px;
+    padding-top: 2rem;
+    padding-left: 6rem;
+    display: block;
+  }
+
+  .omsiden {
+    display: none;
+  }
+  /*emne, fokus, projektbeskrivelse osv*/
+  .t5-2 {
+    width: 600px;
+    padding-top: 3rem;
+    padding-right: 1rem;
+  }
+
+  /*billede og knap*/
+  .t5-3 {
+    width: 1700px;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    display: block;
+  }
+
+  .mobil-t5-3 {
+    display: none;
+  }
+
+  /*om temaet*/
+  .t5-4 {
+    width: 200px;
+    padding-top: 4rem;
+    padding-left: 3rem;
+    display: block;
+  }
+
+  /*emne, fokus*/
+  .t5-5 {
+    width: 370px;
+    padding-top: 7rem;
+  }
+
+  /*hjælpemidler*/
+  .t5-6 {
+    display: flex;
+    width: 230px;
+    padding-top: 19rem;
+    padding-left: 1rem;
+  }
+
+  .unlocked-t5 {
+    padding-top: 2.2rem;
+    padding-left: 1rem;
+    width: 30px;
+    height: 75px;
+  }
+
+  /*færdigheder*/
+  .t5-7 {
+    width: 300px;
+    padding-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 3rem;
+  }
+
+  /*harmonika*/
+  .t5-8 {
+    width: 800px;
+    padding-top: 4rem;
+    padding-left: 1rem;
+    padding-right: 3rem;
+    display: block;
+  }
+
+  .mobil-t5-8 {
+    display: none;
+  }
+
+  #details-t5 {
+    width: 700px;
+  }
+
+  .mest-isp-t51 {
+    width: 100px;
+    height: 200px;
+    border-radius: 10px;
+    margin-right: 5px;
+  }
+
+  .mest-isp-t52 {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+  }
+
+  .mest-isp-t53 {
+    width: 340px;
+    height: 200px;
+    border-radius: 10px;
+  }
+  /*************BONUS DIV DESKTOP****************/
+  .emne {
+    width: 450px;
+    padding-top: 0.5rem;
+  }
+
+  /*tema 6, portfolio titel*/
+  .bonus {
+    padding-top: 3rem;
+    padding-left: 2rem;
+    width: 500px;
+  }
+
+  .bonus-1 {
+    display: block;
+    padding-top: 4rem;
+    padding-left: 4rem;
+    width: 200px;
+  }
+
+  .bonus-2 {
+    width: 500px;
+    padding-top: 4rem;
+  }
+  .bonus-3 {
+    display: block;
+    padding-top: 4rem;
+    padding-right: 7rem;
+  }
+
+  .quiz {
+    width: 100px;
+  }
+
+  .mobil-bonus-3 {
+    display: none;
+  }
+
+  .omsiden {
+    display: none;
+  }
+
+  /*************TEMA 6 DIV DESKTOP***************/
+  #tema6-button {
+    margin-left: 10px;
+    width: 150px;
+  }
+
+  /*tema 6, portfolio*/
+  .t6 {
+    padding-top: 3rem;
+    padding-left: 2rem;
+  }
+
+  /*om siden titel*/
+  .t6-1 {
+    width: 300px;
+    padding-top: 4rem;
+    padding-left: 6rem;
+    display: block;
+  }
+
+  .omsiden {
+    display: none;
+  }
+
+  /*emne, fokus, projektbeskrivelse osv*/
+  .t6-2 {
+    width: 600px;
+    padding-top: 7rem;
+    padding-right: 1rem;
+  }
+
+  /*billede og knap*/
+  .t6-3 {
+    width: 1700px;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    display: block;
+  }
+
+  .mobil-t6-3 {
+    display: none;
+  }
+
+  /*om temaet*/
+  .t6-4 {
+    width: 200px;
+    padding-top: 4rem;
+    padding-left: 3rem;
+    display: block;
+  }
+
+  /*emne, fokus*/
+  .t6-5 {
+    width: 380px;
+    padding-top: 7rem;
+  }
+
+  /*værktøjer*/
+  .t6-6 {
+    width: 230px;
+    padding-top: 19rem;
+    padding-left: 3rem;
+  }
+
+  /*færdigheder*/
+  .t6-7 {
+    width: 300px;
+    padding-top: 7rem;
+    padding-left: 2rem;
+    padding-right: 3rem;
+  }
+
+  /*harmonika*/
+  .t6-8 {
+    width: 800px;
+    padding-top: 4rem;
+    padding-left: 1rem;
+    padding-right: 3rem;
+    display: block;
+  }
+
+  .mobil-t6-8 {
+    display: none;
+  }
+
+  .details-t6 {
+    width: 700px;
+  }
+
+  .mest-isp-t61 {
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 5px;
+  }
+
+  .mest-isp-t62 {
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 5px;
+  }
+
+  .mest-isp-t63 {
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 5px;
+  }
+
+  .mest-isp-t64 {
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 5px;
+  }
+}
