@@ -11,6 +11,36 @@ img {
   display: block;
 }
 
+/*midlertidig tegning til semestre*/
+.hmm {
+  width: 900px;
+  display: none;
+  padding: 1rem;
+}
+.mmh {
+  width: 490px;
+  display: block;
+}
+
+#undskyld {
+  padding-block: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+  #undskyld {
+    padding-block: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .hmm {
+    display: block;
+  }
+  .mmh {
+    display: none;
+  }
+}
+/******************
+
 /*HEADER - ENS PÅ ALLE SIDER*/
 header {
   top: 0;
@@ -25,6 +55,7 @@ header {
   font-weight: 400;
   font-style: normal;
   height: 100px;
+  font-size: 1.4rem;
 }
 
 .logo {

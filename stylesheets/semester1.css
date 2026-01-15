@@ -1,13 +1,13 @@
 /*HEADER FOOTER MAIN*/
 
 header {
-  background-color: #f6a7c8;
+  background-color: #f8e6e6;
   position: sticky;
 }
 
 footer {
-  color: #587395;
-  background-color: #bdd3e8;
+  color: #bf4545;
+  background-color: #f29e9e;
 }
 
 main {
@@ -30,7 +30,7 @@ body {
 
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #c1bfbfb7;
+    background: #e37474;
     border-radius: 10px;
   }
 }
@@ -203,16 +203,6 @@ p {
   text-decoration: none;
 }
 
-.bonus-link {
-  color: #59b63ad5;
-  font-weight: 600;
-}
-
-.bonus-link:hover {
-  color: #2e77c19b;
-  text-decoration: none;
-}
-
 .figma-link4 {
   color: #3a84b6d5;
   font-weight: 600;
@@ -239,10 +229,10 @@ p {
 }
 
 #tema2 {
-  background-color: #ffcaca;
+  background-color: #ffdbdb;
   overflow-x: scroll;
   display: flex;
-  color: #e28282;
+  color: #e69898;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
@@ -367,11 +357,11 @@ details p {
 }
 
 #tema3 {
-  background-color: #ffe6ca;
+  background-color: #fad5d5;
   overflow-x: scroll;
   overflow-y: hidden;
   display: flex;
-  color: #dea47b;
+  color: #e48e8e;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
@@ -511,7 +501,7 @@ details p {
 }
 
 #tema4 {
-  background-color: #f7ffca;
+  background-color: #f9c9c9;
   overflow-x: scroll;
   overflow-y: hidden;
   display: flex;
@@ -648,7 +638,7 @@ details p {
 }
 
 #tema5 {
-  background-color: #d1ffca;
+  background-color: #f9bbbb;
   overflow-x: scroll;
   overflow-y: hidden;
   display: flex;
@@ -778,100 +768,9 @@ details p {
   margin-right: 5px;
 }
 
-/***********************BONUS DIV MOBIL***************************/
-#bonus {
-  background-color: #caf9ff;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  display: flex;
-  color: #6889ad;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-
-/*bonus, hobby titel*/
-.bonus {
-  padding-top: 3rem;
-  padding-left: 2rem;
-  padding-right: 4rem;
-}
-
-.bonus-button {
-  background-color: #8fb6ce;
-  margin-left: 10px;
-  width: 150px;
-}
-
-.bonus-button a {
-  color: #6889ad;
-  text-decoration: none;
-}
-
-.bonus-button:hover {
-  box-shadow: 2px 3px 6px #8c468a42;
-}
-
-/*babykristen knap*/
-.bonus-button2 {
-  background-color: #8fb6ce;
-  margin-left: 10px;
-  width: 200px;
-}
-
-.bonus-button2 a {
-  color: #6889ad;
-  text-decoration: none;
-}
-
-.bonus-button2:hover {
-  box-shadow: 2px 3px 6px #8c468a42;
-}
-
-/*tema 6, portfolio titel*/
-.bonus {
-  padding-top: 3rem;
-  padding-left: 2rem;
-}
-
-/*om siden titel*/
-.bonus-1 {
-  display: none;
-}
-
-.omsiden {
-  display: block;
-  padding-top: 1rem;
-}
-
-/*emne, fokus, projektbeskrivelse osv*/
-.bonus-2 {
-  width: 450px;
-  padding-top: 3rem;
-  padding-right: 2rem;
-  padding-left: 5rem;
-}
-
-/*billede og knap*/
-.bonus-3 {
-  display: none;
-}
-
-.mobil-bonus-3 {
-  width: 350px;
-  display: block;
-  padding: 2rem;
-}
-
-.omsiden {
-  display: block;
-}
-
-.bonus-1 {
-  display: none;
-}
 /**********************TEMA 6 DIV MOBIL*************************/
 #tema6 {
-  background-color: #fdcaff;
+  background-color: #f9b1b1;
   overflow-x: scroll;
   overflow-y: hidden;
   display: flex;
@@ -1407,47 +1306,6 @@ details p {
     width: 340px;
     height: 200px;
     border-radius: 10px;
-  }
-  /*************BONUS DIV DESKTOP****************/
-  .emne {
-    width: 450px;
-    padding-top: 0.5rem;
-  }
-
-  /*tema 6, portfolio titel*/
-  .bonus {
-    padding-top: 3rem;
-    padding-left: 2rem;
-    width: 500px;
-  }
-
-  .bonus-1 {
-    display: block;
-    padding-top: 4rem;
-    padding-left: 4rem;
-    width: 200px;
-  }
-
-  .bonus-2 {
-    width: 500px;
-    padding-top: 4rem;
-  }
-  .bonus-3 {
-    display: block;
-    padding-top: 4rem;
-    padding-right: 7rem;
-  }
-
-  .quiz {
-    width: 100px;
-  }
-
-  .mobil-bonus-3 {
-    display: none;
-  }
-
-  .omsiden {
-    display: none;
   }
 
   /*************TEMA 6 DIV DESKTOP***************/
