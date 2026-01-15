@@ -1,27 +1,44 @@
 /*HEADER FOOTER MAIN*/
 
 header {
-  background-color: #e4a1e7;
+  background-color: #fef0e0;
   position: sticky;
-  z-index: 10;
 }
 
 footer {
-  color: #893d8c;
-  background-color: #d690da;
+  color: #836646;
+  background-color: #d4b188;
 }
 
 main {
-  background-color: #fdcaff;
   font-family: "Gudea", sans-serif;
   font-weight: 400;
   font-style: normal;
-  height: 700px;
+  background-color: #ffe6ca;
+}
+
+body {
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    /* box-shadow: inset 0 0 5px grey; */
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #e37474;
+    border-radius: 10px;
+  }
 }
 
 /*desktop menu for projekter*/
 .menu a {
-  color: #893d8c;
+  color: #ba698b;
 }
 
 .menu-projekter {
@@ -32,7 +49,7 @@ main {
 }
 
 .menu a:hover {
-  color: #7a307c;
+  color: #8d4b66;
   font-family: "Luckiest Guy";
   font-weight: 400;
   font-style: normal;
@@ -54,29 +71,5 @@ main {
     font-family: "Luckiest Guy";
     font-weight: 400;
     font-style: normal;
-  }
-}
-
-.semester-box {
-  padding: 2rem 2rem;
-  display: flex;
-  gap: 2rem;
-  overflow-x: scroll;
-}
-
-.box {
-  width: 300px;
-}
-.semester {
-  width: 300px;
-}
-
-.semester:hover {
-  width: 290px;
-}
-
-@media screen and (min-width: 800px) {
-  .semester-box {
-    overflow-x: hidden;
   }
 }
