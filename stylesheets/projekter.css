@@ -1,0 +1,82 @@
+/*HEADER FOOTER MAIN*/
+
+header {
+  background-color: #f6a7c8;
+  position: sticky;
+  z-index: 10;
+}
+
+footer {
+  color: #587395;
+  background-color: #bdd3e8;
+}
+
+body {
+  background-color: #f7d9f3;
+}
+
+main {
+  background-color: #f7d9f3;
+  font-family: "Gudea", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*desktop menu for projekter*/
+.menu a {
+  color: #ba698b;
+}
+
+.menu-projekter {
+  font-family: "Luckiest Guy";
+  font-weight: 400;
+  font-style: normal;
+  color: #a35b79;
+}
+
+.menu a:hover {
+  color: #8d4b66;
+  font-family: "Luckiest Guy";
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*mobil menu for projekter*/
+@media screen and (max-width: 800px) {
+  nav.active .menu {
+    background-color: #c9fbe6;
+  }
+
+  .menu a {
+    color: #89bca7;
+  }
+
+  .menu a:hover {
+    color: #649682;
+    text-decoration: none;
+    font-family: "Luckiest Guy";
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+
+.semester-box {
+  margin: 2rem 2rem;
+  display: flex;
+  gap: 2rem;
+  overflow-x: scroll;
+}
+
+.semester {
+  width: 300px;
+}
+
+.semester:hover {
+  filter: brightness(90%);
+}
+
+@media screen and (min-width: 800px) {
+  .semester-box {
+    overflow-x: hidden;
+  }
+}
